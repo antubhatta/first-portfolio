@@ -1,5 +1,6 @@
 /* common shared styles */
 body{
+    font-family:'Leto', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 .orange{
@@ -9,10 +10,10 @@ body{
     border-radius: 5px;
 background: #FD6E0A;
 border: 0;
-color:#FFF;
+color: white;
 font-size: 20px;
 font-weight: 700;
-padding: 18px 35px;
+padding: 15px 35px;
 
 }
 /* nav related css */
@@ -20,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .font-title{
     color: #181818;
@@ -37,5 +39,18 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: var(--dark-02, #474747);;
+    color:#474747;
+}
+/* header related css */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
+    height: 600px;
 }
